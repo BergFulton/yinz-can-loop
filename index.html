@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<div>
+    <h1>Yinz can loop!</h1>
+</div>
+
+
+
+<div>
+    <h2>Answer some questions and find out if you can loop, n'at.</h2>
+
+ <div id="brand">
+    <label for="brand-select">Insulin pump brand:</label>
+
+    <select id="brand-select">
+        <option value="">--Please choose an option--</option>
+        <option value="medtronic">Medtronic/MiniMed</option>
+        <option value="omnipod">Omnipod</option>
+        <option value="tslim">Tandem T:Slim</option>
+        <option value="accucheck">AccuCheck</option>
+        <option value="animas">Animas</option>
+        <option value="dana">Dana RS</option>        
+        <option value="unlisted">Unlisted</option>
+    </select>
+    </div>
+
+    <!--Can't loop result-->
+    <div id="noloop">
+     <p>Unfortunately, there are no DIY Closed loop soltuions
+         for your pump at this time.</p>
+    </div>
+  
+  <!--Minimed Pump Options-->
+  <div id="medtronic-pump">
+    <label for="medtronic-select">Which Medtronic Pump do you have? </label>
+
+    <select id="medtronic-select">
+        <option value="">--Please choose an option--</option>
+        <option value="mm512">Medtronic 512 or 712</option>
+        <option value="mm515">Medtronic 515 or 715</option>
+        <option value="mm522">Medtronic 522 or 722</option>
+        <option value="mm523">Medtronic 523 or 723</option>
+        <option value="mm551">Medtronic 551 or 751</option>
+        <option value="mm554">Medtronic 554 or 754</option>        
+        <option value="mm630">Medtronic 630G</option>
+        <option value="mm670">Medtronic 670G</option>
+    </select>
+    </div>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
